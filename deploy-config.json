@@ -1,0 +1,21 @@
+{
+  "accessKeyId": "<YOUR INFO>",
+  "secretAccessKey": "<YOUR INFO>",
+  "region": "us-east-1",
+  "bucket": "<YOUR INFO>",
+  "s3KeyBase": "<YOUR INFO>",
+  "extraPathsToInclude": [],
+  "extraPathsToExclude": [],
+  "lambdaFunctionNames": ["<YOUR INFO>"],
+  "lambdaAlias": "<YOUR INFO>",
+  "maxUnboundVersionsToKeep": 2,
+  "awsPrincipal": "<YOUR INFO>",
+  
+  // Set to false to skip granting AWS Lambda permissions during testing 
+  "testPermissions": true,
+  
+  // Omit this key to skip publishing this repo to Lambda during testing 
+  "testPublishThisRepo": {
+    // Add the key 'existingS3KeyForZip' if you have a zip file on S3 to use instead of this repo 
+  }
+}
